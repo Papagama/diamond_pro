@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html class="light" lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DiamondPro - Профессиональное алмазное бурение</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {primary: "#ab2027", "background-light": "#f8f6f6", "background-dark": "#201213", charcoal: "#111418", "slate-custom": "#60728a"}, fontFamily: {display: "Inter"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}}}};</script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-charcoal dark:text-white transition-colors duration-300">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 w-full bg-white/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-[#f0f2f5] dark:border-gray-800">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10 h-16 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.1739 20.1739L27.8261 5.82609C29.1366 7.13663 28.3989 10.1876 26.2002 13.7654C24.8538 15.9564 22.9595 18.3449 20.6522 20.6522C18.3449 22.9595 15.9564 24.8538 13.7654 26.2002C10.1876 28.3989 7.13663 29.1366 5.82609 27.8261L20.1739 42.1739C21.4845 43.4845 24.5355 42.7467 28.1133 40.548C30.3042 39.2016 32.6927 37.3073 35 35C37.3073 32.6927 39.2016 30.3042 40.548 28.1133C42.7467 24.5355 43.4845 21.4845 42.1739 20.1739Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-charcoal dark:text-white text-xl font-black tracking-tight">DiamondPro</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#services">Услуги</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#problems">Преимущества</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#process">Процесс</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#reviews">Отзывы</a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="hidden lg:flex flex-col items-end">
+<span class="text-sm font-bold text-charcoal dark:text-white">+7 (999) 000-00-00</span>
+<span class="text-[10px] text-slate-custom uppercase tracking-wider">Ежедневно 8:00 - 21:00</span>
+</div>
+<button class="bg-primary text-white px-5 py-2.5 rounded-lg text-sm font-bold hover:bg-blue-600 transition-all shadow-lg shadow-primary/20">
+                    Заказать звонок
+                </button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative bg-white dark:bg-background-dark pt-4 pb-12">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10">
+<div class="relative min-h-[580px] rounded-2xl overflow-hidden flex flex-col justify-center p-8 lg:p-16">
+<!-- Background Image & Overlay -->
+<div class="absolute inset-0 z-0 bg-cover bg-center" data-alt="Professional construction worker using diamond drilling machine" style='background-image: linear-gradient(90deg, rgba(16, 24, 34, 0.9) 0%, rgba(16, 24, 34, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAj73fgN3k1tlCGZIn0-Fdj7sPhEr6kG3OSMlNZSP3rbFN6KHxu0lbVVifVa9muz0Zy2tqZISgcmYLpGXiK4X3fJ1LbaFIrVN-kDNV5DGzCKnVdsdHywAYrnda1vZWd9izZUHmC4QN9QpbDeHsYBivgpo2hSWLYRNLd1J56_3mud9ol19aV-V__IZc9IcUyHHMCoittuwNFhFLp3ICEB-jcd27qnwrTUqXHqzqawdgSjoQMIIZldbRM6zq1TcpjxRR9byHrbKdgi14");'></div>
+<div class="relative z-10 max-w-2xl space-y-6">
+<h1 class="text-white text-4xl lg:text-6xl font-black leading-tight tracking-tight">
+                        Алмазное бурение отверстий <span class="text-primary">без пыли</span> и трещин
+                    </h1>
+<p class="text-gray-300 text-lg lg:text-xl font-normal max-w-xl leading-relaxed">
+                        Точно, аккуратно и в срок. Работаем с бетоном, кирпичом и монолитом любой сложности на глубину до 3-х метров.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-primary text-white h-14 px-8 rounded-lg text-lg font-bold hover:scale-105 transition-transform shadow-xl shadow-primary/30">
+                            Рассчитать стоимость
+                        </button>
+<button class="bg-white/10 backdrop-blur-md border border-white/20 text-white h-14 px-8 rounded-lg text-lg font-bold hover:bg-white/20 transition-all">
+                            Получить консультацию
+                        </button>
+</div>
+</div>
+<!-- Fast Benefits -->
+<div class="absolute bottom-0 left-0 right-0 bg-white/5 backdrop-blur-xl border-t border-white/10 hidden md:block">
+<div class="grid grid-cols-4 divide-x divide-white/10 py-6">
+<div class="flex items-center justify-center gap-3 px-4">
+<span class="material-symbols-outlined text-primary text-3xl">air_purifier</span>
+<span class="text-white font-medium text-sm">Без пыли</span>
+</div>
+<div class="flex items-center justify-center gap-3 px-4">
+<span class="material-symbols-outlined text-primary text-3xl">vibration</span>
+<span class="text-white font-medium text-sm">Без вибраций</span>
+</div>
+<div class="flex items-center justify-center gap-3 px-4">
+<span class="material-symbols-outlined text-primary text-3xl">circle</span>
+<span class="text-white font-medium text-sm">Любой диаметр</span>
+</div>
+<div class="flex items-center justify-center gap-3 px-4">
+<span class="material-symbols-outlined text-primary text-3xl">bolt</span>
+<span class="text-white font-medium text-sm">Выезд сегодня</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Problems Block -->
+<section class="py-20 bg-background-light dark:bg-background-dark/50" id="problems">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10">
+<div class="text-center mb-16">
+<h2 class="text-3xl lg:text-4xl font-black text-charcoal dark:text-white mb-4">С чем обычно сталкиваются клиенты</h2>
+<p class="text-slate-custom dark:text-gray-400 max-w-2xl mx-auto">Непрофессиональный подход стоит дороже — переделки, уборка и ремонт поврежденных конструкций.</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Problem Card 1 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-2xl border border-red-100 dark:border-red-900/30 shadow-sm">
+<div class="size-12 rounded-xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-red-500 mb-6">
+<span class="material-symbols-outlined text-3xl">blur_on</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Горы пыли</h3>
+<p class="text-slate-custom dark:text-gray-400 text-sm leading-relaxed">Мелкодисперсная пыль оседает на мебели и технике, требуя дорогостоящего клининга.</p>
+</div>
+<!-- Problem Card 2 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-2xl border border-red-100 dark:border-red-900/30 shadow-sm">
+<div class="size-12 rounded-xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-red-500 mb-6">
+<span class="material-symbols-outlined text-3xl">heart_broken</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Трещины в стенах</h3>
+<p class="text-slate-custom dark:text-gray-400 text-sm leading-relaxed">Перфоратор разрушает структуру бетона, вызывая микротрещины и сколы отделки.</p>
+</div>
+<!-- Problem Card 3 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-2xl border border-red-100 dark:border-red-900/30 shadow-sm">
+<div class="size-12 rounded-xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-red-500 mb-6">
+<span class="material-symbols-outlined text-3xl">architecture</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Кривые отверстия</h3>
+<p class="text-slate-custom dark:text-gray-400 text-sm leading-relaxed">Неточность разметки ведет к тому, что трубы не входят, а коммуникации смещаются.</p>
+</div>
+<!-- Problem Card 4 -->
+<div class="bg-white dark:bg-gray-800 p-8 rounded-2xl border border-red-100 dark:border-red-900/30 shadow-sm">
+<div class="size-12 rounded-xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-red-500 mb-6">
+<span class="material-symbols-outlined text-3xl">schedule</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Срыв сроков</h3>
+<p class="text-slate-custom dark:text-gray-400 text-sm leading-relaxed">Частные мастера могут не приехать или работать старым инструментом в 3 раза дольше.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Solutions Block (Mirroring Problems) -->
+<section class="py-20 bg-white dark:bg-background-dark">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10">
+<div class="text-center mb-16">
+<span class="text-primary font-bold uppercase tracking-widest text-xs">Наш стандарт</span>
+<h2 class="text-3xl lg:text-4xl font-black text-charcoal dark:text-white mt-2">Мы решаем эти проблемы</h2>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Solution Card 1 -->
+<div class="group bg-background-light dark:bg-gray-800/40 p-8 rounded-2xl border border-primary/10 hover:border-primary transition-all duration-300">
+<div class="size-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">vacuum</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Чистота 100%</h3>
+<p class="text-slate-custom dark:text-gray-400 text-sm leading-relaxed">Используем промышленные пылесосы и водосборные кольца. Бурим даже в чистовой отделке.</p>
+</div>
+<!-- Solution Card 2 -->
+<div class="group bg-background-light dark:bg-gray-800/40 p-8 rounded-2xl border border-primary/10 hover:border-primary transition-all duration-300">
+<div class="size-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">verified</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Сохранность конструкций</h3>
+<p class="text-slate-custom dark:text-gray-400 text-sm leading-relaxed">Алмазная коронка режет бетон и арматуру без ударных нагрузок и вибраций.</p>
+</div>
+<!-- Solution Card 3 -->
+<div class="group bg-background-light dark:bg-gray-800/40 p-8 rounded-2xl border border-primary/10 hover:border-primary transition-all duration-300">
+<div class="size-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">target</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Ювелирная точность</h3>
+<p class="text-slate-custom dark:text-gray-400 text-sm leading-relaxed">Лазерное нивелирование гарантирует отверстие в нужном месте с точностью до 1 мм.</p>
+</div>
+<!-- Solution Card 4 -->
+<div class="group bg-background-light dark:bg-gray-800/40 p-8 rounded-2xl border border-primary/10 hover:border-primary transition-all duration-300">
+<div class="size-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">speed</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Скорость работы</h3>
+<p class="text-slate-custom dark:text-gray-400 text-sm leading-relaxed">Штат из 10 бригад позволяет выезжать на объект через 2 часа после звонка.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Block -->
+<section class="py-20 bg-background-light dark:bg-background-dark/50" id="services">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10">
+<h2 class="text-3xl lg:text-4xl font-black text-charcoal dark:text-white mb-12 text-center">Наши услуги</h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Service 1 -->
+<div class="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-primary/20">
+<div class="h-48 overflow-hidden relative">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Ventilation system installation diamond drilling" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDEtXmRZgz76arD116NAggTnBUBWBIoVKeaf8OYLSO6uqZXNpckM2wEHCDDkfK8AxtkAQRPcFU_sIJ6YFL026Y1YpuRUl7NIC7XWyAIwcrtcFObuUvBuMVRHXW0t8MwMYDaX2R25ax-B2T3DQMcuHhujIdWlCsxNSuk3sx4k-8bzSNdHZnTfXHYpqRH7k-Hu_nXbxk-iGWgVBE6KfozYAwcgIY1a5Th9ed7bYiWj08rQ3rtPt5jcmd8yCuJFhwJt2eH4kiOOzIiBxc");'></div>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 text-primary mb-4">
+<span class="material-symbols-outlined">air</span>
+<span class="text-xs font-black uppercase tracking-widest">Вентиляция</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Для КИВ и вытяжек</h3>
+<p class="text-sm text-slate-custom dark:text-gray-400 mb-6">Бурение отверстий диаметром от 100 до 250 мм под приточные клапаны и вентиляцию.</p>
+<button class="w-full py-3 bg-background-light dark:bg-gray-700 text-charcoal dark:text-white font-bold rounded-lg group-hover:bg-primary group-hover:text-white transition-all text-sm">Узнать цену</button>
+</div>
+</div>
+<!-- Service 2 -->
+<div class="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-primary/20">
+<div class="h-48 overflow-hidden relative">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Plumbing pipes through concrete wall" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuApe782VBXJY9pm3gu-Hkeh6GvKaESu11262DVfJO_RdRlIFEenpUVVNXIRf3eX8KYIsSAoANGvJMJJW5maC6Zl5unHGDogX87JL1S6Gxp_-iDDdQX9saK7C58Df7DVYcYD96DhxvgQJDOlex4TpNRIDFaC5U0jsyOnZbjp4QBhhsp9TJnxt1jdWka1ae01tWui-6QuZ2yP1JN7pT3H4rzDCUYKsil0MZpOjsBRjmY8vpVHLTqHOMVAZqJGInqCn06rvqQOVUpDcYg");'></div>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 text-primary mb-4">
+<span class="material-symbols-outlined">water_drop</span>
+<span class="text-xs font-black uppercase tracking-widest">Трубы</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Отопление и вода</h3>
+<p class="text-sm text-slate-custom dark:text-gray-400 mb-6">Отверстия под стояки, канализацию и подводку воды в любых типах перекрытий.</p>
+<button class="w-full py-3 bg-background-light dark:bg-gray-700 text-charcoal dark:text-white font-bold rounded-lg group-hover:bg-primary group-hover:text-white transition-all text-sm">Узнать цену</button>
+</div>
+</div>
+<!-- Service 3 -->
+<div class="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-primary/20">
+<div class="h-48 overflow-hidden relative">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Air conditioning outdoor unit installation" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCTEcu2FcC21l9uSLWutpz0Ed6QrkEUNDSjMwywpbaPsuWnp7-SKfFfGYAqQ5mlw9e7Ur_khYzJEW1mD06nqhCkVHeUYBkkFlZt31AiMRng7X99WOxUfWDd6DYPUFxmFuUNYAvJJSu2Y5W54V_Ha7__HsnTh6rtey9H6TrCTo-3WOrI-Eh6KAqix7U5vcyf-WzhFYruG40HxKc0XFK_O6j5PADcOuACpOzAJKMenf3-vb4JuHQWtCSNtTzNBhlBzPkYQeXYHfWD8pg");'></div>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 text-primary mb-4">
+<span class="material-symbols-outlined">ac_unit</span>
+<span class="text-xs font-black uppercase tracking-widest">Кондиционеры</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Трассы сплит-систем</h3>
+<p class="text-sm text-slate-custom dark:text-gray-400 mb-6">Проходки в монолитных и кирпичных стенах под фреоновые трассы любого диаметра.</p>
+<button class="w-full py-3 bg-background-light dark:bg-gray-700 text-charcoal dark:text-white font-bold rounded-lg group-hover:bg-primary group-hover:text-white transition-all text-sm">Узнать цену</button>
+</div>
+</div>
+<!-- Service 4 -->
+<div class="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-primary/20">
+<div class="h-48 overflow-hidden relative">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Large diameter drilling in thick concrete" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAU3KuEjImXkBVhKyPA9WpOVmyLNKmvRqqD0lXn44nGmVBYhqUrwDzoq-FdfvJ8mCj2lEhZ3Y7DjIU-GBc4sxzR8x8sXXKmTAktfKYxoPn2ZoSv4GjksNqj3er_cWoB0dydTQt9q8jy6AQXcVD9ubfsmiO6BusxfBB-u1K9wYHTTZlSocN8Hdj7_glPJWlBuqmDDBCqqhVN0ESDpcVwHZO3vBOhK--9rvUDtDFja3fmC0zuNh8QtpX1S4VJXsNrBlD4MiB3thlDaA4");'></div>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 text-primary mb-4">
+<span class="material-symbols-outlined">layers</span>
+<span class="text-xs font-black uppercase tracking-widest">Проемы</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Стены и перекрытия</h3>
+<p class="text-sm text-slate-custom dark:text-gray-400 mb-6">Усиление и резка проемов под двери и окна, технологические люки в фундаменте.</p>
+<button class="w-full py-3 bg-background-light dark:bg-gray-700 text-charcoal dark:text-white font-bold rounded-lg group-hover:bg-primary group-hover:text-white transition-all text-sm">Узнать цену</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Block -->
+<section class="py-20 bg-white dark:bg-background-dark">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10 text-center">
+<h2 class="text-3xl lg:text-4xl font-black mb-16">Почему нам доверяют</h2>
+<div class="grid grid-cols-2 lg:grid-cols-5 gap-8">
+<div class="space-y-4">
+<div class="mx-auto size-16 bg-background-light dark:bg-gray-800 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">handyman</span>
+</div>
+<p class="font-bold text-sm">Опыт 12 лет</p>
+<p class="text-xs text-slate-custom dark:text-gray-400">Более 5000 объектов</p>
+</div>
+<div class="space-y-4">
+<div class="mx-auto size-16 bg-background-light dark:bg-gray-800 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">construction</span>
+</div>
+<p class="font-bold text-sm">Hilti / Husqvarna</p>
+<p class="text-xs text-slate-custom dark:text-gray-400">Премиум оборудование</p>
+</div>
+<div class="space-y-4">
+<div class="mx-auto size-16 bg-background-light dark:bg-gray-800 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">mop</span>
+</div>
+<p class="font-bold text-sm">Чистый объект</p>
+<p class="text-xs text-slate-custom dark:text-gray-400">Убираем за собой</p>
+</div>
+<div class="space-y-4">
+<div class="mx-auto size-16 bg-background-light dark:bg-gray-800 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">payments</span>
+</div>
+<p class="font-bold text-sm">Честная цена</p>
+<p class="text-xs text-slate-custom dark:text-gray-400">Без скрытых наценок</p>
+</div>
+<div class="space-y-4 col-span-2 lg:col-span-1">
+<div class="mx-auto size-16 bg-background-light dark:bg-gray-800 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl">assignment_turned_in</span>
+</div>
+<p class="font-bold text-sm">Договор и гарантия</p>
+<p class="text-xs text-slate-custom dark:text-gray-400">Юридическая защита</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Process Block -->
+<section class="py-20 bg-background-light dark:bg-background-dark/50 overflow-hidden" id="process">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10">
+<h2 class="text-3xl lg:text-4xl font-black text-center mb-20">Как мы работаем</h2>
+<div class="relative">
+<!-- Line -->
+<div class="absolute top-1/2 left-0 right-0 h-0.5 bg-gray-200 dark:bg-gray-700 hidden lg:block -translate-y-1/2"></div>
+<div class="grid lg:grid-cols-4 gap-12 relative z-10">
+<!-- Step 1 -->
+<div class="bg-white dark:bg-gray-800 lg:bg-transparent lg:dark:bg-transparent p-6 rounded-2xl flex flex-col items-center text-center group">
+<div class="size-16 rounded-full bg-primary text-white flex items-center justify-center font-black text-xl mb-6 shadow-lg shadow-primary/40 group-hover:scale-110 transition-transform">01</div>
+<h4 class="font-bold text-lg mb-2">Заявка</h4>
+<p class="text-sm text-slate-custom dark:text-gray-400">Оставляете заявку, мы рассчитываем стоимость по фото или чертежам.</p>
+</div>
+<!-- Step 2 -->
+<div class="bg-white dark:bg-gray-800 lg:bg-transparent lg:dark:bg-transparent p-6 rounded-2xl flex flex-col items-center text-center group">
+<div class="size-16 rounded-full bg-primary text-white flex items-center justify-center font-black text-xl mb-6 shadow-lg shadow-primary/40 group-hover:scale-110 transition-transform">02</div>
+<h4 class="font-bold text-lg mb-2">Выезд</h4>
+<p class="text-sm text-slate-custom dark:text-gray-400">Мастера приезжают в назначенное время со всем необходимым инструментом.</p>
+</div>
+<!-- Step 3 -->
+<div class="bg-white dark:bg-gray-800 lg:bg-transparent lg:dark:bg-transparent p-6 rounded-2xl flex flex-col items-center text-center group">
+<div class="size-16 rounded-full bg-primary text-white flex items-center justify-center font-black text-xl mb-6 shadow-lg shadow-primary/40 group-hover:scale-110 transition-transform">03</div>
+<h4 class="font-bold text-lg mb-2">Бурение</h4>
+<p class="text-sm text-slate-custom dark:text-gray-400">Выполняем работу быстро, чисто и без лишнего шума. Сбор воды и пыли.</p>
+</div>
+<!-- Step 4 -->
+<div class="bg-white dark:bg-gray-800 lg:bg-transparent lg:dark:bg-transparent p-6 rounded-2xl flex flex-col items-center text-center group">
+<div class="size-16 rounded-full bg-primary text-white flex items-center justify-center font-black text-xl mb-6 shadow-lg shadow-primary/40 group-hover:scale-110 transition-transform">04</div>
+<h4 class="font-bold text-lg mb-2">Результат</h4>
+<p class="text-sm text-slate-custom dark:text-gray-400">Принимаете работу, подписываем акт, убираем рабочее место.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Reviews Block -->
+<section class="py-20 bg-white dark:bg-background-dark" id="reviews">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10">
+<h2 class="text-3xl lg:text-4xl font-black text-center mb-12">Отзывы клиентов</h2>
+<div class="grid md:grid-cols-3 gap-6">
+<!-- Review 1 -->
+<div class="p-8 rounded-2xl bg-background-light dark:bg-gray-800 border border-transparent hover:border-primary/20 transition-all">
+<div class="flex gap-1 text-yellow-400 mb-4">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-sm italic text-slate-custom dark:text-gray-300 mb-6">"Нужно было сделать 4 отверстия под вытяжки в квартире с ремонтом. Боялись пыли, но ребята сработали идеально. Пылесос собрал всё до последней крошки."</p>
+<div class="flex items-center gap-3">
+<div class="size-10 rounded-full bg-gray-300" data-alt="User avatar placeholder"></div>
+<div>
+<p class="font-bold text-sm">Алексей С.</p>
+<p class="text-[10px] text-slate-custom dark:text-gray-500 uppercase tracking-widest">ЖК "Маяк"</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="p-8 rounded-2xl bg-background-light dark:bg-gray-800 border border-transparent hover:border-primary/20 transition-all">
+<div class="flex gap-1 text-yellow-400 mb-4">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-sm italic text-slate-custom dark:text-gray-300 mb-6">"Вызывали для бурения фундамента под канализацию. Прошли 50 см армированного бетона как масло. Оборудование новое, профи сразу видно."</p>
+<div class="flex items-center gap-3">
+<div class="size-10 rounded-full bg-gray-300" data-alt="User avatar placeholder"></div>
+<div>
+<p class="font-bold text-sm">Михаил Петрович</p>
+<p class="text-[10px] text-slate-custom dark:text-gray-500 uppercase tracking-widest">Коттеджный поселок</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="p-8 rounded-2xl bg-background-light dark:bg-gray-800 border border-transparent hover:border-primary/20 transition-all">
+<div class="flex gap-1 text-yellow-400 mb-4">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star_half</span>
+</div>
+<p class="text-sm italic text-slate-custom dark:text-gray-300 mb-6">"Договорились на утро, мастера приехали вовремя. Всё быстро просверлили, мусор за собой собрали в мешки. Очень доволен сервисом."</p>
+<div class="flex items-center gap-3">
+<div class="size-10 rounded-full bg-gray-300" data-alt="User avatar placeholder"></div>
+<div>
+<p class="font-bold text-sm">Игорь Васильев</p>
+<p class="text-[10px] text-slate-custom dark:text-gray-500 uppercase tracking-widest">Офисный центр</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA Lead Form -->
+<section class="py-20">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10">
+<div class="bg-primary rounded-[2rem] overflow-hidden flex flex-col lg:flex-row shadow-2xl shadow-primary/20">
+<div class="lg:w-1/2 p-8 lg:p-16 text-white space-y-6">
+<h2 class="text-3xl lg:text-5xl font-black leading-tight">Нужно отверстие? Сделаем аккуратно!</h2>
+<p class="text-blue-100 text-lg">Оставьте номер телефона — наш инженер перезвонит вам через 10 минут, ответит на вопросы и назовет точную цену.</p>
+<ul class="space-y-3">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-blue-300">check_circle</span> Бесплатный расчет</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-blue-300">check_circle</span> Консультация инженера</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-blue-300">check_circle</span> Скидка 10% на первый заказ</li>
+</ul>
+</div>
+<div class="lg:w-1/2 p-8 lg:p-16 bg-white dark:bg-gray-800">
+<form class="space-y-4 max-w-md mx-auto">
+<div>
+<label class="block text-xs font-bold text-slate-custom dark:text-gray-400 uppercase tracking-wider mb-2">Ваше имя</label>
+<input class="w-full bg-background-light dark:bg-gray-700 border-transparent focus:border-primary focus:ring-0 rounded-xl h-14 px-6 text-charcoal dark:text-white transition-all" placeholder="Иван Иванов" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-bold text-slate-custom dark:text-gray-400 uppercase tracking-wider mb-2">Номер телефона</label>
+<input class="w-full bg-background-light dark:bg-gray-700 border-transparent focus:border-primary focus:ring-0 rounded-xl h-14 px-6 text-charcoal dark:text-white transition-all" placeholder="+7 (___) ___-__-__" type="tel"/>
+</div>
+<button class="w-full h-16 bg-primary text-white text-lg font-black rounded-xl hover:scale-[1.02] active:scale-[0.98] transition-all shadow-xl shadow-primary/30 mt-4 uppercase" type="submit">
+                            Перезвоните мне
+                        </button>
+<p class="text-[10px] text-center text-slate-custom dark:text-gray-500 mt-4 leading-relaxed">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных</p>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-charcoal dark:bg-gray-950 text-white pt-20 pb-10">
+<div class="max-w-[1280px] mx-auto px-4 lg:px-10">
+<div class="grid md:grid-cols-4 gap-12 mb-16">
+<div class="space-y-6">
+<div class="flex items-center gap-2">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.1739 20.1739L27.8261 5.82609C29.1366 7.13663 28.3989 10.1876 26.2002 13.7654C24.8538 15.9564 22.9595 18.3449 20.6522 20.6522C18.3449 22.9595 15.9564 24.8538 13.7654 26.2002C10.1876 28.3989 7.13663 29.1366 5.82609 27.8261L20.1739 42.1739C21.4845 43.4845 24.5355 42.7467 28.1133 40.548C30.3042 39.2016 32.6927 37.3073 35 35C37.3073 32.6927 39.2016 30.3042 40.548 28.1133C42.7467 24.5355 43.4845 21.4845 42.1739 20.1739Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-black">DiamondPro</h2>
+</div>
+<p class="text-gray-500 text-sm leading-relaxed">Профессиональные услуги алмазного бурения и резки бетона по Москве и Московской области. Гарантия качества на все виды работ.</p>
+</div>
+<div>
+<h4 class="font-bold mb-6">Навигация</h4>
+<ul class="space-y-4 text-sm text-gray-500">
+<li><a class="hover:text-primary transition-colors" href="#">Главная</a></li>
+<li><a class="hover:text-primary transition-colors" href="#services">Наши услуги</a></li>
+<li><a class="hover:text-primary transition-colors" href="#reviews">Отзывы</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Цены</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Контакты</h4>
+<ul class="space-y-4 text-sm text-gray-500">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">phone</span> +7 (999) 000-00-00</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">mail</span> info@diamondpro.ru</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">location_on</span> Москва, ул. Строителей, 12</li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Режим работы</h4>
+<ul class="space-y-4 text-sm text-gray-500">
+<li>Будни: 8:00 — 21:00</li>
+<li>Выходные: 9:00 — 18:00</li>
+<li class="pt-4"><span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-[10px] font-bold uppercase tracking-wider">Принимаем заявки 24/7</span></li>
+</ul>
+</div>
+</div>
+<div class="pt-10 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] text-gray-600 uppercase tracking-widest">
+<p>© 2024 DiamondPro. Все права защищены.</p>
+<div class="flex gap-8">
+<a class="hover:text-white transition-colors" href="#">Политика конфиденциальности</a>
+<a class="hover:text-white transition-colors" href="#">Публичная оферта</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
